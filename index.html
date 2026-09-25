@@ -18,28 +18,123 @@
 <body class="bg-slate-900 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white">
 
     <header>
-        <nav class="bg-linear-to-b/hsl from-gray-300 to-slate-900 flex justify-center gap-x-8 px-16 py-6">
-            <a href="contact.html" class="text-2xl text-slate-400 transition duration-150 hover:text-indigo-400">Contact</a>
-            <a href="index.html" class="text-2xl font-bold text-white transition duration-150 hover:text-indigo-400">Home</a>
-            <a href="projects.html" class="text-2xl text-slate-400 transition duration-150 hover:text-indigo-400">Projects</a>
+        <nav class="bg-slate-700 flex justify-center gap-x-8 px-16 py-6">
+            <a href="contact.html" class="text-2xl text-slate-400 transition duration-150 hover:text-indigo-400 hover:scale-103 hover:shadow-md">Contact</a>
+            <a href="index.html" class="text-2xl font-bold text-white transition duration-150 hover:text-indigo-400 hover:scale-103 hover:shadow-md">Home</a>
+            <a href="spirit.html" class="text-2xl text-slate-400 transition duration-150 hover:text-indigo-400 hover:scale-103 hover:shadow-md">Spirit Reforged</a>
+            <a href="starlight.html" class="text-2xl text-slate-400 transition duration-150 hover:text-indigo-400 hover:scale-103 hover:shadow-md">Starlight River</a>
         </nav>
     </header>
 
-    <main class="max-w-4xl mx-auto px-6 py-20 flex flex-col items-center text-center">
-        <!--<img src="img/CSlogoBanner.png" alt="C.S" class = "h-50 shadow-xl">-->
-
-        <h1 class="text-9xl font-bold text-white">
+    <main>
+        <section id="summary" class="max-w-4xl mx-auto px-6 py-20 flex flex-col items-center text-center">
+            <h1 class="text-9xl font-bold text-white">
             Collin Summers
-        </h1>
-        <h2 class="text-2xl font-style: italic text-slate-400 mb-4">
-            5+ years of technical experience
-        </h2>
+            </h1>
+
+            <h2 class="text-2xl italic text-slate-400 mb-4">
+                5+ years of technical experience
+            </h2>
         
-        <p class="text-lg leading-relaxed mb-4">
-            5+ years of C# programming on tModLoader<br>
-            Over 500,000 lines of code contributed between 3 projects totalling 750,000+ downloads on Steam
-        </p>
-       
+            <p class="text-lg leading-relaxed mb-4">
+                5+ years of C# programming on tModLoader<br>
+                80,000+ lines of code contributed between 2 projects totalling 750,000+ downloads on Steam<br>
+                290,000+ lines of code written solo for a mod totalling 60,000+ downloads on Steam<br>
+                And much more!
+            </p>
+        </section>
+
+        <section id="about-me" class="mx-auto px-20 py-5 flex flex-col md:flex-row gap-12">
+            <div class="w-full md:w-1/3 text-center">
+                <h2 class="text-5xl md:text-7xl font-bold text-white text-center mb-6">
+                    About Me
+                </h2>
+
+                <p class="bg-slate-800 rounded-lg text-xl font-semibold text-white px-4 py-4">
+                    <!--Kind of placeholder. Could be a lot better haha-->
+                    My name is Collin Summers, and I've been programming for 5+ years, with a passion for Game Development! <br>
+                    I've always wanted to make video games for a living, and I've been blessed to be able to pursue this professionally. <br>
+                    I learned  with tModLoader, a modding platform for the game Terraria. I've worked on various projects, and currently work on Spirit Reforged. <br>
+                    As a student, I'm currently enrolled at the University of Central Florida, pursuing a degree of Computer Science. <br>
+                    I've leveraged my time in high school as well to have taken various Computer Science courses before university, most of which<br>
+                    were specialized Game Development courses, teaching Unity. <br>
+                    I specialize in visual effects and procedural animations. My best showcases of my work reside in Spirit Reforged, there are various<br>
+                    videos here! <br> <!--Add hyperlink to spirit here-->
+                    I've mostly worked in 2D, with expertise in HLSL pixel shader work, particle systems, and robust OOP systems as well. <br>
+                </p>
+            </div>
+
+            <div class="w-full md:w-1/3 text-left">
+                <h2 class="text-5xl md:text-7xl font-bold text-white text-center mb-6">
+                    Projects
+                </h2>
+
+                <div class="grid grid-rows-3 gap-4">
+
+                    <a href="spirit.html" class="group relative block overflow-hidden bg-slate-800 rounded-lg p-6 text-center hover:scale-105 hover:shadow-xl transition duration-300">
+                        <div class="absolute inset-0 bg-[url('img/spiritReforgedSpellbound.png')] bg-cover bg-center opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
+
+                        <div class="relative z-10">
+
+                        <h3 class="text-2xl text-slate-400 underline transition duration-150 group-hover:text-indigo-400">
+                            Spirit Reforged
+                        </h3>
+
+                        <p class="text-xl font-semibold text-white px-2 py-2">
+                            Spirit Reforged is a modern, critically acclaimed Terraria Mod with over 200,000 downloads<br>
+                            As one of the current core programmers for the mod, I implement various nodes of high-quality content<br>
+                            These include weapon visuals, complex shader work in HLSL, procedurally animations, and more!
+                        </p>
+                        </div>
+                    </a>
+
+                    <a href="starlight.html" class="group relative block overflow-hidden bg-slate-800 rounded-lg p-6 text-center hover:scale-105 hover:shadow-xl transition duration-300">
+                        <div class="absolute inset-0 bg-[url('img/starlightRiver.png')] bg-cover bg-center opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
+
+                        <div class="relative z-10">
+
+                        <h3 class="text-2xl text-slate-400 underline transition duration-150 group-hover:text-indigo-400">
+                            Starlight River
+                        </h3>
+
+                        <p class="text-xl font-semibold text-white px-2 py-2">
+                            Starlight River is an incredibly ambitious and VFX heavy Terraria Mod with over 500,000 downloads<br>
+                            As one of the core programmers for the mod from 2021-2023, I implemented various nodes of content,
+                            each complete with stunning visuals and robust systems.
+                        </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/3 text-center">
+                <h2 class="text-5xl md:text-7xl font-bold text-white text-center mb-6">
+                    Skills
+                </h2>
+
+                <div class="grid grid-rows-3 gap-3 mb-6">
+                    <p class="bg-slate-800 rounded-lg text-xl font-semibold text-white px-2 py-2">
+                        5+ years of programming with C#
+                    </p>
+
+                    <p class="bg-slate-800 rounded-lg text-xl font-semibold text-white px-2 py-2">
+                        Expertise in High Level Shader Language
+                    </p>
+
+                    <p class="bg-slate-800 rounded-lg text-xl font-semibold text-white px-2 py-2">
+                        3+ years of programming with Lua
+                    </p>
+
+                    <p class="bg-slate-800 rounded-lg text-xl font-semibold text-white px-2 py-2">
+                        Proficiency in Python, Java, JavaScript, C, and C++
+                    </p>
+
+                    <p class="bg-slate-800 rounded-lg text-xl font-semibold text-white px-2 py-2">
+                        Experience with Unity, Roblox Engine, and the Microsoft XNA Framework
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
